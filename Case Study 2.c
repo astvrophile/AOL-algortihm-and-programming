@@ -531,6 +531,7 @@ int main(){
 				
 		} getchar();
 	} while (choose != 5); // the program won't stop until user chose 5
+	fclose(data);
 	
 	return 0;
 }
